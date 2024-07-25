@@ -1,0 +1,66 @@
+styles.css
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap'); 
+
+body{
+    background-color: beige;
+}
+
+h1{
+    color: black;
+    display:inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 400px;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: rgb(87, 90, 87);
+}
+
+h4{
+    color: rgb(87, 90, 87);
+}
+
+/* Centralizar Background image */
+/* Aplicando regra de estilo paradois elementos de uma só vez */
+.bgimg-naocentral, .bgimg-central{
+    background-image: url(../img/senac-largotreze.jpg);
+    height: 400px;
+    width: 400px;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    width: 200px;
+    display:inline-block;
+  }
+
+  .Paragrafo{
+    background-color: #e9ecf1;
+    color: black;
+    padding: 80px;
+    font-size: 30px;
+    display:inline-block;    
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#logo2{
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    display:inline-block;
+}
